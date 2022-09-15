@@ -16,4 +16,4 @@ $groupsusers=Get-ADGroup -Identity $nameofgroup |
     }
 
 
-$groupsusers | Export-Csv C:\scripts\GroupsUsers.csv -NoTypeInformation
+$groupsusers | Export-Csv C:\Scripts\GroupsUsers.csv -NoTypeInformation
